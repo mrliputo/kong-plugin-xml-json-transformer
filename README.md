@@ -17,6 +17,9 @@ This can be done also using the request-transformer plugin
 
 Example backend used here: http://www.inf.fu-berlin.de/lehre/SS03/19560-P/Docs/JWSDP/tutorial/examples/jaxp/sax/samples/slideSample01.xml
 
+Please note, request not support
+Make sure when requesting you don't fill in "Accept-Encoding" in the header
+![img.png](img.png)
 
 ````
 > http :8001/services/<SERVICE>/plugins name=xml-json-transformer 
