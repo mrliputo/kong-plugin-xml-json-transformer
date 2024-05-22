@@ -24,7 +24,7 @@ return {
       type = "record",
       fields = {
           { ignore_content_type = {
-              description = "If true, set true.",
+            --  description = "If true, set true.",
               type = "boolean",
               required = true,
               default = false } },
